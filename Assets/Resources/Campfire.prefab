@@ -149,12 +149,12 @@ MonoBehaviour:
       damage: 1
       damageTypes: 03000000
       injuries: []
-    hitstun: 10
+    hitstun: 25
     hitstop: 0
     invulFrames: 0
     ignoreInvul: 0
     triggerCurse: 0
-    speedMult: 0.5
+    speedMult: 0.3
   damageOnEntrance: 1
   hitEffect: {fileID: 8150246614410206040, guid: 567d4b4412ffd314881eda9bd20bcb30,
     type: 3}
