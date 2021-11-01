@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63afb0dfa972cf49a5392da237cc587, type: 3}
+  m_Name: Burger
+  m_EditorClassIdentifier: 
+  size: 1
+  displayName: Borgur
+  displayDesc: it food
+  sprite: {fileID: 21300000, guid: 4f4ac5d32aa7ab84b974b5f55b99e49c, type: 3}
+  destroyOnUse: 1
+  useParticles: {fileID: 9099031254843870629, guid: 2b015cb731193cf42ae6cee254104aec,
+    type: 3}
+  healing:
+    isRegeneration: 0
+    healingLeft: 6
+    framesPerTick: 300
+    tickCountown: 0
+    sprite: {fileID: 0}

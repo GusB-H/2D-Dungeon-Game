@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee943215feb5fc44829598fdfdbf55e, type: 3}
+  m_Name: Laser Sword
+  m_EditorClassIdentifier: 
+  displayName: Laser Sword
+  sprite: {fileID: 21300000, guid: ba94ab9ac1320334f99472bb36fad8d1, type: 3}
+  attackSprite: {fileID: 21300000, guid: ba94ab9ac1320334f99472bb36fad8d1, type: 3}
+  attackDuration: 15
+  swingGraphicTimestamp: 5
+  swingOffset: 0.1
+  swingSpeed: 9
+  swingDuration: 100
+  swingSize: {x: 2, y: 1, z: 0.4}
+  swingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.15
+      value: -75
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 120
+      inSlope: 486.50665
+      outSlope: 486.50665
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25298098
+      outWeight: 0.041324113
+    - serializedVersion: 3
+      time: 1
+      value: 360
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  damage:
+    neutralDamage: 1
+    fireDamage: 1
+    frostDamage: 1
+    toxicDamage: 1
+    electricDamage: 1
+  knockback: 1

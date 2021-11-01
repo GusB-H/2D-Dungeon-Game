@@ -1,0 +1,545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee943215feb5fc44829598fdfdbf55e, type: 3}
+  m_Name: Old Shovel
+  m_EditorClassIdentifier: 
+  displayName: Old Shovel
+  sprite: {fileID: 21300000, guid: 9ddec2d566d27a54599326ab4eae144f, type: 3}
+  durabilityType: 0
+  maxDurability: 0
+  brokenWeapon: {fileID: 0}
+  naturalOffset: {x: 0, y: 0}
+  naturalRotation: 0
+  normalAttack:
+    attackDuration: 120
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -6.8126726
+        outSlope: -6.8126726
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.06998445
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.4
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2.5440211
+        outSlope: 2.5440211
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.0974334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.075
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18040435
+      - serializedVersion: 3
+        time: 0.45
+        value: 0.075
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18040435
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.07659406
+      - serializedVersion: 3
+        time: 0.3625
+        value: -0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.45
+        value: 0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: -180
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18040435
+      - serializedVersion: 3
+        time: 0.2683248
+        value: -197.21835
+        inSlope: -605.12415
+        outSlope: -605.12415
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3
+        value: -220
+        inSlope: 20.333094
+        outSlope: 20.333094
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.50440645
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.35
+        value: -150
+        inSlope: 2230.3079
+        outSlope: 2230.3079
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.6080874
+        outWeight: 0.17029555
+      - serializedVersion: 3
+        time: 0.45
+        value: 180
+        inSlope: 981.0246
+        outSlope: 981.0246
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.6267498
+      - serializedVersion: 3
+        time: 0.5
+        value: 200
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.07659406
+      - serializedVersion: 3
+        time: 0.63607216
+        value: 96.26942
+        inSlope: -684.8398
+        outSlope: -684.8398
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.08549197
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes:
+    - startFrame: 42
+      duration: 12
+      offset: {x: 0.6875, y: 0}
+      parentToWeapon: 1
+      dimensions: {x: 0.25, y: 0.1875, z: 0}
+      hit:
+        damage:
+          damage: 3
+          damageTypes: 0100000002000000
+          injuries: []
+        hitstun: 35
+        hitstop: 9
+        invulFrames: 40
+        ignoreInvul: 0
+        triggerCurse: 0
+        speedMult: 1
+      knockback: 15
+      selfHitstopOverride: -1
+      hitSound:
+        startFrame: 0
+        sound: {fileID: 0}
+        volume: 0
+        minPitch: 0
+        maxPitch: 0
+      attackerShake:
+        randomValue: 0
+        windupFrames: 0
+        duration: 0
+        currentFrame: 0
+        direction: {x: 0, y: 0}
+        magnitude: 0
+        diminishedMagnitude: 0
+        alternate: 0
+      targetShake:
+        randomValue: 0
+        windupFrames: 0
+        duration: 0
+        currentFrame: 0
+        direction: {x: 0, y: 0}
+        magnitude: 0
+        diminishedMagnitude: 0
+        alternate: 0
+    projectiles: []
+    swingParticles:
+    - startFrame: 38
+      duration: 16
+      offset: {x: 0.6875, y: 0}
+      particleSystem: {fileID: 2764528288789982690, guid: 1face9c55e92e2744aa87852269d030c,
+        type: 3}
+    swingForces:
+    - startFrame: 42
+      endFrame: 54
+      totalForce: {x: 9, y: 0}
+    cameraShakes:
+    - startFrame: 42
+      screenshake:
+        randomValue: 0
+        windupFrames: 9
+        duration: 9
+        currentFrame: 0
+        direction: {x: -1, y: 0}
+        magnitude: 0.6
+        diminishedMagnitude: 0
+        alternate: 0
+      strongRadius: 0
+      fadeRadius: 0
+  chargedAttack:
+    attackDuration: 0
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes: []
+    projectiles: []
+    swingParticles: []
+    swingForces: []
+    cameraShakes: []
+  dashAttack:
+    attackDuration: 0
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes: []
+    projectiles: []
+    swingParticles: []
+    swingForces: []
+    cameraShakes: []
+  emptyNormalAttack:
+    attackDuration: 0
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes: []
+    projectiles: []
+    swingParticles: []
+    swingForces: []
+    cameraShakes: []
+  emptyChargedAttack:
+    attackDuration: 0
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes: []
+    projectiles: []
+    swingParticles: []
+    swingForces: []
+    cameraShakes: []
+  emptyDashAttack:
+    attackDuration: 0
+    movementLockCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveX:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    offsetCurveY:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swingRotationCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    weaponDistanceCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    soundEffects: []
+    hitboxes: []
+    projectiles: []
+    swingParticles: []
+    swingForces: []
+    cameraShakes: []

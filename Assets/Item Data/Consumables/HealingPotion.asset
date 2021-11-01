@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63afb0dfa972cf49a5392da237cc587, type: 3}
+  m_Name: HealingPotion
+  m_EditorClassIdentifier: 
+  size: 1
+  displayName: Healing Potion
+  displayDesc: A potion that heals you
+  sprite: {fileID: 21300000, guid: b291e7e1cf15f784896ecd0c29ea716d, type: 3}
+  destroyOnUse: 1
+  useParticles: {fileID: 9099031254843870629, guid: 2b015cb731193cf42ae6cee254104aec,
+    type: 3}
+  healing:
+    isRegeneration: 0
+    healingLeft: 4
+    framesPerTick: 120
+    tickCountown: 0
+    sprite: {fileID: 0}

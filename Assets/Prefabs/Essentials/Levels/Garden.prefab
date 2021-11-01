@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9093190559598981835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463392315327836264}
+  - component: {fileID: 4674809110679610275}
+  m_Layer: 0
+  m_Name: Garden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1463392315327836264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093190559598981835}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.7294836, y: 14.260654, z: -0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4674809110679610275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093190559598981835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7208f6c0abdf0a5448d2efd4253f7cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSounds: {fileID: 11400000, guid: d08f9ca6a4a84a241a1a5678e3518968, type: 2}
+  tilePrefab: {fileID: 9019023716233236011, guid: b02d18c83834d9c4facfeacc9659b184,
+    type: 3}
+  edgeWallSprite: {fileID: 21300000, guid: 4c7e05b96069ab6469bfd3e6cebc0048, type: 3}
+  wallSprite: {fileID: 21300000, guid: e76915a01d4f9d442ab94f00a5ca8a7f, type: 3}
+  wallTorchSprite: {fileID: 21300000, guid: e76915a01d4f9d442ab94f00a5ca8a7f, type: 3}
+  floorSprite: {fileID: 21300000, guid: 1c584dae39969084681c533c1ad77225, type: 3}
+  hallFloorSprite: {fileID: 21300000, guid: 1c584dae39969084681c533c1ad77225, type: 3}
+  exitSprite: {fileID: 21300000, guid: c70b284d5450f5743b537b040542f076, type: 3}
+  openDoorSprite: {fileID: 21300000, guid: 1a67fe29a40f64547970fa37b2c6c018, type: 3}
+  closedDoorSprite: {fileID: 21300000, guid: e76915a01d4f9d442ab94f00a5ca8a7f, type: 3}
+  boundaryPadding: {x: 0, y: 0}
+  mapSize: {x: 0, y: 0}
+  startPos: {x: 0, y: 0}
+  playerTransform: {fileID: 0}
+  rooms: []

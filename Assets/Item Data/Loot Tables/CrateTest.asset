@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26b837587998b144a76d7541d1b5f49, type: 3}
+  m_Name: CrateTest
+  m_EditorClassIdentifier: 
+  drops:
+  - rarity: 0
+    weight: 3
+    dropObject: {fileID: 306518251400862183, guid: 4fb268fc52f4fbf4aace32588f6bc8ca,
+      type: 3}
+  - rarity: 0
+    weight: 3
+    dropObject: {fileID: 6831710992325794821, guid: 342914512d4e6d3418439c1eb2be85fd,
+      type: 3}
+  - rarity: 0
+    weight: 3
+    dropObject: {fileID: 3348993611810355056, guid: 0a06c4fcf9159304980d11a1aca02116,
+      type: 3}
+  - rarity: 1
+    weight: 1
+    dropObject: {fileID: 8292113020561778761, guid: aec33fb517d9d9d44b8a8c594ce22d8b,
+      type: 3}
+  - rarity: 1
+    weight: 1
+    dropObject: {fileID: 3726286619934717915, guid: 8f7978c462f891c4d91aad6f568c4e9d,
+      type: 3}
+  - rarity: 1
+    weight: 1
+    dropObject: {fileID: 2181727183218995788, guid: 9c76d805b9c9756428b0ec17cd61b0d3,
+      type: 3}
+  - rarity: 1
+    weight: 1
+    dropObject: {fileID: 2486244777590193004, guid: 23ec5c9baebc21c478c1baedcc023939,
+      type: 3}
