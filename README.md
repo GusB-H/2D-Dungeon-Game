@@ -1,5 +1,7 @@
 This is a game I made based on Brian Walker's talks on Procedural Generation and Emergent Gameplay. My goal is to create a game with open-ended systemic gameplay, such that a player can use a variety of creative methods to solve any given problem. I hope to eventually create complex emergent gameplay through the interaction of simple systems, including liquids, fire, dynamic lighting, and AI. This game is currently in the very early stages of development, but already demonstrates some of the basic concepts that will be fleshed out later on.
 
+I made a short video to show some of what I've made so far! Here it is: https://youtu.be/ZpzH7XK-FFw
+
 Here are a few screenshots:
 The player encounters a nasty gang of bandits
 ![bandit encounter](Enemy%20Encounter.png)
